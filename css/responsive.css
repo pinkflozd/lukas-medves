@@ -1,0 +1,262 @@
+/* ===================================
+   RESPONSIVE DESIGN
+   =================================== */
+
+/* Tablet */
+@media (max-width: 1024px) {
+    .hero-title {
+        font-size: 4rem;
+        letter-spacing: 6px;
+    }
+
+    .section-title {
+        font-size: 2.5rem;
+    }
+
+    .nav-menu {
+        gap: 1.5rem;
+    }
+
+    .audio-grid {
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    }
+
+    .carousel-btn-prev {
+        left: -50px;
+    }
+
+    .carousel-btn-next {
+        right: -50px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .nav-container {
+        padding: 1rem;
+    }
+
+    #navbar {
+        top: 39px;
+    }
+
+    .nav-right {
+        gap: 1rem;
+    }
+
+    .social-bar {
+        gap: 1rem;
+        padding: 0.6rem 0.5rem;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        justify-content: center;
+        align-items: center;
+        top: 0;
+        bottom: auto;
+        will-change: top;
+    }
+
+    .social-bar a .fas, .social-bar a .fab {
+        font-size: 30px;
+    }
+
+    .nav-menu {
+        position: fixed;
+        top: 73px;
+        left: -100%;
+        transform: none;
+        flex-direction: column;
+        background: rgba(10, 10, 10, 0.98);
+        width: 100%;
+        padding: 2rem;
+        gap: 1.5rem;
+        transition: left 0.3s ease;
+        border-bottom: 1px solid var(--border-color);
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    .hamburger.active span:nth-child(1) {
+        transform: rotate(45deg) translate(8px, 8px);
+    }
+
+    .hamburger.active span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active span:nth-child(3) {
+        transform: rotate(-45deg) translate(7px, -7px);
+    }
+
+    .hero-title {
+        font-size: 2.5rem;
+        letter-spacing: 4px;
+    }
+
+    .hero-subtitle {
+        font-size: 0.9rem;
+        letter-spacing: 1px;
+    }
+
+    .section {
+        padding: 60px 0;
+    }
+
+    .section-title {
+        font-size: 2rem;
+        letter-spacing: 2px;
+    }
+
+    .section-subtitle {
+        font-size: 1rem;
+    }
+
+    .about-text {
+        font-size: 1rem;
+        text-align: left;
+    }
+
+    .audio-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .video-carousel {
+        margin-left: -5px;
+        margin-right: -5px;
+    }
+
+    .carousel-btn {
+        width: 40px;
+        height: 40px;
+    }
+
+    .carousel-btn svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    .carousel-btn-prev {
+        left: 8px;
+    }
+
+    .carousel-btn-next {
+        right: 8px;
+    }
+
+    .gallery-grid {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        gap: 1rem;
+    }
+
+    .event-item {
+        padding: 1.5rem;
+    }
+
+    .event-title {
+        font-size: 1.2rem;
+    }
+
+    .contact-item a {
+        font-size: 1.1rem;
+    }
+
+    .social-links {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .lightbox-close {
+        top: 20px;
+        right: 20px;
+        font-size: 2rem;
+    }
+
+    .container {
+        padding: 0 15px;
+    }
+
+    .footer {
+        padding: 2rem 0 2rem 0;
+    }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+    .hero-title {
+        font-size: 2rem;
+        letter-spacing: 2px;
+    }
+
+    .hero-subtitle {
+        font-size: 0.8rem;
+    }
+
+    .section-title {
+        font-size: 1.8rem;
+    }
+
+    .logo a {
+        font-size: 1.2rem;
+    }
+
+    .gallery-grid {
+        grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    }
+
+    .event-item {
+        padding: 1rem;
+    }
+
+    .event-title {
+        font-size: 1.1rem;
+    }
+
+    .social-bar {
+        gap: 0.75rem;
+        padding: 0.5rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+     .social-bar a .fas,  .social-bar a .fab {
+        font-size: 22px;
+    }
+}
+
+/* Landscape Mobile */
+@media (max-width: 768px) and (orientation: landscape) {
+    .hero {
+        height: auto;
+        min-height: 100vh;
+    }
+
+    .hero-title {
+        font-size: 2rem;
+    }
+
+    .hero-subtitle {
+        font-size: 0.9rem;
+    }
+}
+
+/* High Resolution Displays */
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1400px;
+    }
+
+    .hero-title {
+        font-size: 6rem;
+    }
+
+    .section-title {
+        font-size: 3.5rem;
+    }
+}

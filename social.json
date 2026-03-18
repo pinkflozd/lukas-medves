@@ -1,0 +1,54 @@
+{
+  "links": [
+    {
+      "url": "https://www.instagram.com/lukas.medves/",
+      "icon": "fab fa-instagram",
+      "label": "Instagram"
+    },
+    {
+      "url": "https://www.youtube.com/@Lukas.Medves",
+      "icon": "fab fa-youtube",
+      "label": "YouTube"
+    },
+    {
+      "url": "https://www.facebook.com/Lukasmedves",
+      "icon": "fab fa-facebook",
+      "label": "Facebook"
+    },
+    {
+      "url": "https://soundcloud.com/lukasmedves",
+      "icon": "fab fa-soundcloud",
+      "label": "SoundCloud"
+    },
+    {
+      "url": "https://lukasmedves.bandcamp.com",
+      "icon": "fab fa-bandcamp",
+      "label": "Bandcamp"
+    },
+    {
+      "url": "https://open.spotify.com/artist/6Nu4jxY4ZSApZda2QW3fMX",
+      "icon": "fab fa-spotify",
+      "label": "Spotify"
+    },
+    {
+      "url": "https://music.apple.com/artist/luxas/929596028",
+      "icon": "fab fa-apple",
+      "label": "Apple Music"
+    },
+    {
+      "url": "https://music.amazon.com/artists/B00OIK4266",
+      "icon": "fab fa-amazon",
+      "label": "Amazon Music"
+    },
+    {
+      "url": "https://www.deezer.com/artist/6882711",
+      "icon": "fab fa-deezer",
+      "label": "Deezer"
+    },
+    {
+      "url": "mailto:lukas.medves@gmail.com",
+      "icon": "fas fa-envelope",
+      "label": "Email"
+    }
+  ]
+}
