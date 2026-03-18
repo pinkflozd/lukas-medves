@@ -1,0 +1,27 @@
+# Cloudflare Pages custom headers
+
+# HTML, CSS, JSON - 1 hour cache
+/*.html
+  Cache-Control: max-age=3600
+/*.css
+  Cache-Control: max-age=3600
+/*.json
+  Cache-Control: max-age=3600
+
+# Images - 24 hour cache
+/*.jpg
+  Cache-Control: max-age=86400
+/*.jpeg
+  Cache-Control: max-age=86400
+/*.png
+  Cache-Control: max-age=86400
+
+# Videos - 7 day cache
+/*.mp4
+  Cache-Control: max-age=604800
+/*.mov
+  Cache-Control: max-age=604800
+
+# JavaScript - 24 hour cache
+/*.js
+  Cache-Control: max-age=86400

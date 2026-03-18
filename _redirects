@@ -1,0 +1,9 @@
+# Cloudflare Pages redirects and rewrites
+# Language routes - rewrite to index.html for client-side routing
+/en/*  /index.html  200
+/si/*  /index.html  200
+/it/*  /index.html  200
+/yu/*  /index.html  200
+
+# Fallback - all other routes to index.html
+/*  /index.html  200
